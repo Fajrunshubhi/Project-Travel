@@ -158,6 +158,10 @@ header {
     h2{
         font-family: 'playfair Display', serif;
         font-weight: bold;
+        font-size: 40px;
+    }
+    p{
+        font-size: 18px;
     }
     img{
         max-width: 100%;
@@ -168,4 +172,13 @@ header {
     background: linear-gradient(#fff 0%, #f7f9ff 100%);
     padding-top: 50px;
     min-height: 506px;
+
+    h2{
+        font-family: 'playfair Display', serif;
+        font-weight: bold;
+        font-size: 40px;
+    }
+    p{
+        font-size: 18px;
+    }
 }
