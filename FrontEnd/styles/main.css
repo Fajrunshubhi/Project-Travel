@@ -1,0 +1,171 @@
+body {
+  background-color: #ffffff;
+  font-family: 'Assistant', sans-serif;
+  color: #071C4D;
+}
+
+.navbar-expand-lg {
+  height: 70px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  font-size: 18px;
+  color: #071C4D;
+  border-radius: 20px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link.active {
+  font-weight: bold;
+  color: #071C4D !important;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link.active:hover {
+  background-color: #ffffff;
+  font-weight: bold;
+  color: #071C4D !important;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link:hover {
+  background-color: #071C4D;
+  color: #ffffff;
+  border-radius: 20px;
+}
+
+.d-flex .btn-login {
+  font-size: 18px;
+  border-radius: 20px;
+}
+
+.navbar-brand img {
+  max-height: 40px;
+}
+
+.btn-login {
+  background-color: #071C4D;
+  color: #ffffff;
+}
+
+.btn-login:hover {
+  background-color: #1e449c;
+  color: #ffffff;
+}
+
+header {
+  margin-top: -70px;
+  padding: 180px 0px 200px;
+  background-image: url(../images/header.jpg);
+  background-size: cover;
+}
+
+header h1, header p {
+  color: #ffffff;
+}
+
+header h1 {
+  font-family: 'Assistant', sans-serif;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+header p {
+  font-size: 22px;
+}
+
+header .btn-get-started {
+  background-color: #FF9E53;
+  color: #ffffff;
+}
+
+header .btn-get-started:hover {
+  background-color: #fcb47d;
+  color: #ffffff;
+}
+
+.section-stats {
+  margin-top: -50px;
+}
+
+.section-stats .stats-detail {
+  padding-top: 15px;
+  background-color: #ffffff;
+  padding-left: 40px;
+}
+
+.section-stats h2 {
+  font-size: 30px;
+  margin-bottom: 0;
+}
+
+.section-stats p {
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+.section-popular {
+  min-height: 540px;
+  background-color: #071C4D;
+  margin-top: -50px;
+  margin-bottom: -230px;
+}
+
+.section-popular .section-popular-heading {
+  margin-top: 150px;
+}
+
+.section-popular .section-popular-heading h2, .section-popular .section-popular-heading p {
+  color: #ffffff;
+}
+
+.section-popular .section-popular-heading h2 {
+  font-family: 'playfair Display', serif;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.section-popular .section-popular-heading p {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.section-popular-content .section-popular-travel .card-travel {
+  min-height: 380px;
+  background-color: black;
+  color: #fff;
+  padding: 30px;
+  background-size: cover;
+  margin-bottom: 20px;
+}
+
+.section-popular-content .section-popular-travel .card-travel .travel-country {
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.section-popular-content .section-popular-travel .card-travel .travel-location {
+  font-size: 26px;
+  color: #ffffff;
+}
+
+.section-popular-content .section-popular-travel .card-travel .travel-button .btn-travel-details {
+  color: #ffffff;
+  background-color: #FF9E53;
+}
+
+.section-popular-content .section-popular-travel .card-travel .travel-button .btn-travel-details:hover {
+  background-color: #fcb47d;
+}
+
+.section-networks {
+  background-color: white;
+  margin-top: 50px;
+}
+
+.section-networks h2 {
+  font-family: 'playfair Display', serif;
+  font-weight: bold;
+}
+
+.section-networks img {
+  max-width: 100%;
+}
+/*# sourceMappingURL=main.css.map */
