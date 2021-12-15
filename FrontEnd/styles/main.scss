@@ -211,4 +211,20 @@ header {
             margin-right: -20px;
         }
     }
+    .btn-get-started{
+        background-color: #FF9E53;
+        color: #ffffff;
+        &:hover{
+            background-color: #fcb47d;
+            color: #ffffff;
+        }
+    }
+    .btn-need-help{
+        background-color: #f2f2f2;
+        color: #c3c3c3;
+        &:hover{
+            background-color: #fafafa;
+            color: #c3c3c3;
+        }
+    }
 }

@@ -225,4 +225,24 @@ header .btn-get-started:hover {
   margin-left: -20px;
   margin-right: -20px;
 }
+
+.section-testimonial-content .btn-get-started {
+  background-color: #FF9E53;
+  color: #ffffff;
+}
+
+.section-testimonial-content .btn-get-started:hover {
+  background-color: #fcb47d;
+  color: #ffffff;
+}
+
+.section-testimonial-content .btn-need-help {
+  background-color: #f2f2f2;
+  color: #c3c3c3;
+}
+
+.section-testimonial-content .btn-need-help:hover {
+  background-color: #fafafa;
+  color: #c3c3c3;
+}
 /*# sourceMappingURL=main.css.map */
