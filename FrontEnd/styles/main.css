@@ -245,4 +245,13 @@ header .btn-get-started:hover {
   background-color: #fafafa;
   color: #c3c3c3;
 }
+
+.section-footer a {
+  color: #071C4D;
+  text-decoration: none;
+}
+
+.section-footer a:hover {
+  color: #fcb47d;
+}
 /*# sourceMappingURL=main.css.map */

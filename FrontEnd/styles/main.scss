@@ -228,3 +228,13 @@ header {
         }
     }
 }
+
+.section-footer{
+    a{
+        color: #071C4D;
+        text-decoration: none;
+        &:hover{
+            color: #fcb47d;
+        }
+    }
+}
