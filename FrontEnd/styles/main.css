@@ -1,7 +1,7 @@
 body {
   background-color: #ffffff;
-  font-family: 'Assistant', sans-serif;
-  color: #071C4D;
+  font-family: "Assistant", sans-serif;
+  color: #071c4d;
 }
 
 .navbar-expand-lg {
@@ -10,23 +10,23 @@ body {
 
 .navbar-expand-lg .navbar-nav .nav-link {
   font-size: 18px;
-  color: #071C4D;
+  color: #071c4d;
   border-radius: 20px;
 }
 
 .navbar-expand-lg .navbar-nav .nav-link.active {
   font-weight: bold;
-  color: #071C4D !important;
+  color: #071c4d !important;
 }
 
 .navbar-expand-lg .navbar-nav .nav-link.active:hover {
   background-color: #ffffff;
   font-weight: bold;
-  color: #071C4D !important;
+  color: #071c4d !important;
 }
 
 .navbar-expand-lg .navbar-nav .nav-link:hover {
-  background-color: #071C4D;
+  background-color: #071c4d;
   color: #ffffff;
   border-radius: 20px;
 }
@@ -41,7 +41,7 @@ body {
 }
 
 .btn-login {
-  background-color: #071C4D;
+  background-color: #071c4d;
   color: #ffffff;
 }
 
@@ -57,12 +57,13 @@ header {
   background-size: cover;
 }
 
-header h1, header p {
+header h1,
+header p {
   color: #ffffff;
 }
 
 header h1 {
-  font-family: 'Assistant', sans-serif;
+  font-family: "Assistant", sans-serif;
   font-weight: bold;
   font-size: 50px;
 }
@@ -72,7 +73,7 @@ header p {
 }
 
 header .btn-get-started {
-  background-color: #FF9E53;
+  background-color: #ff9e53;
   color: #ffffff;
 }
 
@@ -103,7 +104,7 @@ header .btn-get-started:hover {
 
 .section-popular {
   min-height: 540px;
-  background-color: #071C4D;
+  background-color: #071c4d;
   margin-top: -50px;
   margin-bottom: -230px;
 }
@@ -112,12 +113,13 @@ header .btn-get-started:hover {
   margin-top: 150px;
 }
 
-.section-popular .section-popular-heading h2, .section-popular .section-popular-heading p {
+.section-popular .section-popular-heading h2,
+.section-popular .section-popular-heading p {
   color: #ffffff;
 }
 
 .section-popular .section-popular-heading h2 {
-  font-family: 'playfair Display', serif;
+  font-family: "playfair Display", serif;
   font-weight: bold;
   font-size: 40px;
 }
@@ -146,12 +148,20 @@ header .btn-get-started:hover {
   color: #ffffff;
 }
 
-.section-popular-content .section-popular-travel .card-travel .travel-button .btn-travel-details {
+.section-popular-content
+  .section-popular-travel
+  .card-travel
+  .travel-button
+  .btn-travel-details {
   color: #ffffff;
-  background-color: #FF9E53;
+  background-color: #ff9e53;
 }
 
-.section-popular-content .section-popular-travel .card-travel .travel-button .btn-travel-details:hover {
+.section-popular-content
+  .section-popular-travel
+  .card-travel
+  .travel-button
+  .btn-travel-details:hover {
   background-color: #fcb47d;
 }
 
@@ -161,7 +171,7 @@ header .btn-get-started:hover {
 }
 
 .section-networks h2 {
-  font-family: 'playfair Display', serif;
+  font-family: "playfair Display", serif;
   font-weight: bold;
   font-size: 40px;
 }
@@ -175,14 +185,20 @@ header .btn-get-started:hover {
 }
 
 .section-testimonial-heading {
-  background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#f7f9ff));
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#fff),
+    to(#f7f9ff)
+  );
   background: linear-gradient(#fff 0%, #f7f9ff 100%);
   padding-top: 50px;
   min-height: 506px;
 }
 
 .section-testimonial-heading h2 {
-  font-family: 'playfair Display', serif;
+  font-family: "playfair Display", serif;
   font-weight: bold;
   font-size: 40px;
 }
@@ -227,7 +243,7 @@ header .btn-get-started:hover {
 }
 
 .section-testimonial-content .btn-get-started {
-  background-color: #FF9E53;
+  background-color: #ff9e53;
   color: #ffffff;
 }
 
@@ -247,11 +263,73 @@ header .btn-get-started:hover {
 }
 
 .section-footer a {
-  color: #071C4D;
+  color: #071c4d;
   text-decoration: none;
 }
 
 .section-footer a:hover {
   color: #fcb47d;
+}
+
+.section-details-header {
+  min-height: 300px;
+  margin-top: -70px;
+  background-color: #e4e6eb;
+}
+
+.section-details {
+  padding-top: 100px;
+}
+
+.section-details .breadcrumb-item.active {
+  color: #1e449c;
+  font-weight: bold;
+}
+
+.section-details a {
+  text-decoration: none;
+  color: #1e449c;
+}
+
+.section-details a:hover {
+  color: #fcb47d;
+}
+
+.section-details-content {
+  margin-top: -150px;
+}
+
+.card-details {
+  padding: 30px;
+  border-radius: 11px;
+}
+
+.card-details h1 {
+  font-size: 26px;
+}
+
+.card-details h2 {
+  font-size: 20px;
+}
+
+.card-details p {
+  font-size: 18px;
+  color: #b1b1b1;
+}
+
+.card-details .features {
+  margin-top: 20px;
+}
+
+.card-details .features h3 {
+  font-size: 18px;
+  color: #071c4d;
+  margin-bottom: 0;
+}
+
+.card-details .features .description {
+  margin-left: 10px;
+  overflow: hidden;
+  float: left;
 }
 /*# sourceMappingURL=main.css.map */
