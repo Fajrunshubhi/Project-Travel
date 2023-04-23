@@ -6,6 +6,7 @@ body {
 
 .navbar-expand-lg {
   height: 70px;
+  z-index: 999;
 }
 .navbar-expand-lg .navbar-nav .nav-link {
   font-size: 18px;
