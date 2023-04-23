@@ -7,24 +7,20 @@ body {
 .navbar-expand-lg {
   height: 70px;
 }
-
 .navbar-expand-lg .navbar-nav .nav-link {
   font-size: 18px;
   color: #071c4d;
   border-radius: 20px;
 }
-
 .navbar-expand-lg .navbar-nav .nav-link.active {
   font-weight: bold;
   color: #071c4d !important;
 }
-
 .navbar-expand-lg .navbar-nav .nav-link.active:hover {
   background-color: #ffffff;
   font-weight: bold;
   color: #071c4d !important;
 }
-
 .navbar-expand-lg .navbar-nav .nav-link:hover {
   background-color: #071c4d;
   color: #ffffff;
@@ -44,7 +40,6 @@ body {
   background-color: #071c4d;
   color: #ffffff;
 }
-
 .btn-login:hover {
   background-color: #1e449c;
   color: #ffffff;
@@ -56,27 +51,22 @@ header {
   background-image: url(../images/header.jpg);
   background-size: cover;
 }
-
 header h1,
 header p {
   color: #ffffff;
 }
-
 header h1 {
   font-family: "Assistant", sans-serif;
   font-weight: bold;
   font-size: 50px;
 }
-
 header p {
   font-size: 22px;
 }
-
 header .btn-get-started {
   background-color: #ff9e53;
   color: #ffffff;
 }
-
 header .btn-get-started:hover {
   background-color: #fcb47d;
   color: #ffffff;
@@ -85,18 +75,15 @@ header .btn-get-started:hover {
 .section-stats {
   margin-top: -50px;
 }
-
 .section-stats .stats-detail {
   padding-top: 15px;
   background-color: #ffffff;
   padding-left: 40px;
 }
-
 .section-stats h2 {
   font-size: 30px;
   margin-bottom: 0;
 }
-
 .section-stats p {
   font-size: 20px;
   font-weight: lighter;
@@ -108,22 +95,18 @@ header .btn-get-started:hover {
   margin-top: -50px;
   margin-bottom: -230px;
 }
-
 .section-popular .section-popular-heading {
   margin-top: 150px;
 }
-
 .section-popular .section-popular-heading h2,
 .section-popular .section-popular-heading p {
   color: #ffffff;
 }
-
 .section-popular .section-popular-heading h2 {
   font-family: "playfair Display", serif;
   font-weight: bold;
   font-size: 40px;
 }
-
 .section-popular .section-popular-heading p {
   font-size: 18px;
   margin-top: 10px;
@@ -131,78 +114,54 @@ header .btn-get-started:hover {
 
 .section-popular-content .section-popular-travel .card-travel {
   min-height: 380px;
-  background-color: black;
+  background-color: rgb(0, 0, 0);
   color: #fff;
   padding: 30px;
   background-size: cover;
   margin-bottom: 20px;
 }
-
 .section-popular-content .section-popular-travel .card-travel .travel-country {
   font-size: 18px;
   color: #ffffff;
 }
-
 .section-popular-content .section-popular-travel .card-travel .travel-location {
   font-size: 26px;
   color: #ffffff;
 }
-
-.section-popular-content
-  .section-popular-travel
-  .card-travel
-  .travel-button
-  .btn-travel-details {
+.section-popular-content .section-popular-travel .card-travel .travel-button .btn-travel-details {
   color: #ffffff;
   background-color: #ff9e53;
 }
-
-.section-popular-content
-  .section-popular-travel
-  .card-travel
-  .travel-button
-  .btn-travel-details:hover {
+.section-popular-content .section-popular-travel .card-travel .travel-button .btn-travel-details:hover {
   background-color: #fcb47d;
 }
 
 .section-networks {
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   margin-top: 50px;
 }
-
 .section-networks h2 {
   font-family: "playfair Display", serif;
   font-weight: bold;
   font-size: 40px;
 }
-
 .section-networks p {
   font-size: 18px;
 }
-
 .section-networks img {
   max-width: 100%;
 }
 
 .section-testimonial-heading {
-  background: -webkit-gradient(
-    linear,
-    left top,
-    left bottom,
-    from(#fff),
-    to(#f7f9ff)
-  );
   background: linear-gradient(#fff 0%, #f7f9ff 100%);
   padding-top: 50px;
   min-height: 506px;
 }
-
 .section-testimonial-heading h2 {
   font-family: "playfair Display", serif;
   font-weight: bold;
   font-size: 40px;
 }
-
 .section-testimonial-heading p {
   font-size: 18px;
 }
@@ -211,52 +170,42 @@ header .btn-get-started:hover {
   margin-top: -300px;
   padding-bottom: 50px;
 }
-
 .section-testimonial-content .card-testimonial {
   padding: 40px 20px 10px;
   border-radius: 11px;
   margin-bottom: 20px;
 }
-
 .section-testimonial-content .card-testimonial .testimonial-content {
   min-height: 380px;
 }
-
 .section-testimonial-content .card-testimonial h3 {
   font-size: 22px;
 }
-
 .section-testimonial-content .card-testimonial .testimonial {
   font-weight: 200px;
   font-size: 20px;
   margin-bottom: 50px;
 }
-
 .section-testimonial-content .card-testimonial .trip-to {
   font-weight: normal;
   font-size: 22px;
 }
-
 .section-testimonial-content .card-testimonial hr {
   margin-left: -20px;
   margin-right: -20px;
 }
-
 .section-testimonial-content .btn-get-started {
   background-color: #ff9e53;
   color: #ffffff;
 }
-
 .section-testimonial-content .btn-get-started:hover {
   background-color: #fcb47d;
   color: #ffffff;
 }
-
 .section-testimonial-content .btn-need-help {
   background-color: #f2f2f2;
   color: #c3c3c3;
 }
-
 .section-testimonial-content .btn-need-help:hover {
   background-color: #fafafa;
   color: #c3c3c3;
@@ -266,7 +215,6 @@ header .btn-get-started:hover {
   color: #071c4d;
   text-decoration: none;
 }
-
 .section-footer a:hover {
   color: #fcb47d;
 }
@@ -280,17 +228,14 @@ header .btn-get-started:hover {
 .section-details {
   padding-top: 100px;
 }
-
 .section-details .breadcrumb-item.active {
   color: #1e449c;
   font-weight: bold;
 }
-
 .section-details a {
   text-decoration: none;
   color: #1e449c;
 }
-
 .section-details a:hover {
   color: #fcb47d;
 }
@@ -303,33 +248,26 @@ header .btn-get-started:hover {
   padding: 30px;
   border-radius: 11px;
 }
-
 .card-details h1 {
   font-size: 26px;
 }
-
 .card-details h2 {
   font-size: 20px;
 }
-
 .card-details p {
   font-size: 18px;
   color: #b1b1b1;
 }
-
 .card-details .features {
   margin-top: 20px;
 }
-
 .card-details .features h3 {
   font-size: 18px;
   color: #071c4d;
   margin-bottom: 0;
 }
-
 .card-details .features .description {
   margin-left: 10px;
   overflow: hidden;
   float: left;
-}
-/*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */
