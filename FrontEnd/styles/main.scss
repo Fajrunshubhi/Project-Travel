@@ -262,6 +262,11 @@ header {
 
 .section-details-content {
     margin-top: -150px;
+    .left-detail-content {
+        background-color: white;
+        border-radius: 20px;
+        padding-top: 10px;
+    }
 }
 .card-details {
     padding: 30px;
